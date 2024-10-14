@@ -5,6 +5,11 @@ import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Word = () => {
+
+  const handleImageClick = (url) => {
+    window.open(url, '_blank'); 
+  };
+  
   return (
     <div id='Work' className='work'>
       <div className="work-title">
@@ -13,7 +18,7 @@ const Word = () => {
       </div>
       <div className="work-container">
         {mywork_data.map((work,index)=>{
-          return <img key={index} src={work.w_img} alt="" />
+          return <img key={index} src={work.w_img} alt="" onClick={() => handleImageClick(work.url)}/>
         })}
       </div>
       <div className="work-showmore">
