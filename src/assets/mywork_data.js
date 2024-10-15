@@ -9,8 +9,8 @@ const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
-        w_img:'project1_img' ,
-        url:'https://lokesh-018.github.io/scroll-responsive/'
+        w_img:project1_img ,
+        url:'https://lokesh-018.github.io/Character-Banner/'
         
     },
     {
