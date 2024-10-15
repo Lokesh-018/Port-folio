@@ -28,7 +28,8 @@ const mywork_data = [
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:project4_img ,
+        url:'https://nodejs-reactjs-weather-app.netlify.app/'
     },
     {
         w_no:5,
