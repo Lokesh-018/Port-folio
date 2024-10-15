@@ -34,12 +34,14 @@ const mywork_data = [
     {
         w_no:5,
         w_name:"Web design",
-        w_img:project5_img
+        w_img:project5_img ,
+        url:'https://chat-app-x18.netlify.app/'
     },
     {
         w_no:6,
         w_name:"Web design",
-        w_img:project6_img
+        w_img:project6_img ,
+        url:'https://food-delivery-frontend-lc9h.onrender.com'
     },
 ]
  
