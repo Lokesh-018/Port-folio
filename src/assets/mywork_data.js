@@ -22,7 +22,8 @@ const mywork_data = [
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img
+        w_img:project3_img ,
+        url:'https://lokesh-018.github.io/3D-Car-Model/'
     },
     {
         w_no:4,
